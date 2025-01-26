@@ -1,0 +1,112 @@
+body {
+  overflow: hidden;
+}
+
+#form h2 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#form {
+  animation: comein 1000ms;
+  margin: 150px auto 100px;
+
+  overflow: hidden;
+}
+
+.alert-form {
+  position: fixed;
+  background-color: #68b541d3;
+  border: 2px solid #68b541;
+  color: white;
+  padding: 12px 60px;
+  font-size: 24px;
+  text-align: center;
+  right: 0;
+  top: 95px;
+  border-radius: 10px;
+  translate: 100%;
+  transition: 200ms;
+}
+
+@keyframes comein {
+  0% {
+    opacity: 0;
+    translate: 0 100%;
+  }
+  20% {
+    translate: 0 100%;
+  }
+  100% {
+    translate: 0;
+  }
+}
+
+#form form {
+  max-width: 1140px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.input-box {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.input-box label {
+  font-size: 20px;
+}
+
+.input-box input,
+.input-box select {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+#form form input[type="submit"] {
+  background-color: #000000;
+  color: #ffffff;
+  clip-path: polygon(10% 0%, 110% 0%, 90% 100%, -10% 100%);
+  padding: 10px 20px;
+  border: none;
+  align-self: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .input-box {
+    flex-direction: column;
+  }
+  .input-box input,
+  .input-box select {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .input-box {
+    align-items: start;
+    text-align: left;
+  }
+}

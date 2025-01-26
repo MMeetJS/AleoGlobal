@@ -1,6 +1,6 @@
 # Aleo Global
 
-Welcome to **Aleo Global**, a simple platform showcasing projects built on the Aleo blockchain. This repository provides details on how the website operates, its purpose, and how to contribute to its ongoing development.
+Welcome to **Aleo Global**, a platform showcasing projects built on the Aleo blockchain. This repository provides details on how the website operates, its purpose, and how to contribute to its ongoing development.
 
 ## About Aleo Global
 

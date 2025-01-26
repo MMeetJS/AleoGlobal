@@ -15,15 +15,15 @@ Aleo Global serves as an accessible entry point for exploring the Aleo ecosystem
 
 ## Key Features
 
-![Projects](readmestock/projects.png)
-
 1. **Simple Project Listing**: A straightforward list of projects with minimal details.
 
-![Project Example](readmestock/project.png)
+![Projects](readmestock/projects.png)
 
 2. **Basic Project Details**: Each project includes:
    - A short description.
    - Links to the project's website or GitHub (if available).
+
+![Project Example](readmestock/project.png)
 
 ## Contributing
 

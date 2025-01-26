@@ -1,3 +1,7 @@
 node_modules
 src/TCM_____.TTF
 build/static/media/TCM_____.7b67eec0cc9a1e3ba9cc.TTF
+build/
+.firebase/
+firebase.json
+.firebaserc
